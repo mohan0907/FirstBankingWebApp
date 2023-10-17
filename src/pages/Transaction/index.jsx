@@ -29,7 +29,7 @@ const TransactionPage = () => {
                 className="ml-1 sm:text-[21px] md:text-[23px] text-[25px] text-indigo-600"
                 size="txtInterBold25"
               >
-                FirstBank
+                ApnaBank
               </Text>
             </div>
             <div className="flex flex-col items-start justify-start mb-[334px] w-full">

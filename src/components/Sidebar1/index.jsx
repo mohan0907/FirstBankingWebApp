@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 import { Sidebar } from "react-pro-sidebar";
 
 import { Img, Line, Text } from "components";
@@ -19,23 +19,25 @@ const Sidebar1 = (props) => {
               className="ml-1 sm:text-[21px] md:text-[23px] text-[25px] text-indigo-600"
               size="txtInterBold25"
             >
-              FirstBank
+              ApnaBank
             </Text>
           </div>
           <div className="flex flex-col gap-[23px] justify-start mb-[294px] w-[92%] md:w-full">
             <div className="flex flex-col gap-10 items-start justify-start ml-10 md:ml-[0] w-[81%] md:w-full">
               <div className="flex flex-row gap-5 items-start justify-start w-[87%] md:w-full">
-                <Img
-                  className="h-[25px] w-[25px]"
-                  src="images/img_home_25X25.svg"
-                  alt="home"
-                />
+                <Link to="/dashboard">
+                  <Img
+                    className="h-[25px] w-[25px]"
+                    src="images/img_home_25X25.svg"
+                    alt="home"
+                  />
                 <Text
                   className="mt-1 text-bluegray-400 text-lg"
                   size="txtInterMedium18Bluegray400"
                 >
                   Dashboard
                 </Text>
+                </Link>
               </div>
               <div className="flex flex-row gap-5 items-start justify-start w-[98%] md:w-full">
                 <Img

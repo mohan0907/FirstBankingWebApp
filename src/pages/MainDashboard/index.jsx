@@ -287,7 +287,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-white-A700 text-xl"
                               size="txtInterRegular20"
                             >
-                              $5,756
+                              Rs 5,756
                             </Text>
                           </div>
                           <Img
@@ -308,7 +308,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-[15px] text-white-A700"
                               size="txtInterRegular15"
                             >
-                              Eddy Cusuma
+                              Rahul 
                             </Text>
                           </div>
                           <div className="flex flex-col items-start justify-start">
@@ -322,7 +322,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-[15px] text-white-A700"
                               size="txtInterRegular15"
                             >
-                              12/22
+                              12/26
                             </Text>
                           </div>
                         </div>
@@ -358,7 +358,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-white-A700 text-xl"
                               size="txtInterRegular20"
                             >
-                              $5,756
+                              Rs 5,756
                             </Text>
                           </div>
                           <Img
@@ -379,7 +379,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-[15px] text-white-A700"
                               size="txtInterRegular15"
                             >
-                              Eddy Cusuma
+                              Deepesh
                             </Text>
                           </div>
                           <div className="flex flex-col items-start justify-start">
@@ -393,7 +393,7 @@ const MainDashboardPage = () => {
                               className="mt-1 text-[15px] text-white-A700"
                               size="txtInterRegular15"
                             >
-                              12/22
+                              12/30
                             </Text>
                           </div>
                         </div>
@@ -453,14 +453,14 @@ const MainDashboardPage = () => {
                         className="text-[15px] text-bluegray-400"
                         size="txtInterRegular15Bluegray400"
                       >
-                        28 January 2021
+                        28 January 2023
                       </Text>
                     </div>
                     <Text
                       className="ml-[13px] text-base text-red-700"
                       size="txtInterMedium16Red700"
                     >
-                      -$850
+                      -Rs850
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-full">
@@ -487,14 +487,14 @@ const MainDashboardPage = () => {
                         className="text-[15px] text-bluegray-400"
                         size="txtInterRegular15Bluegray400"
                       >
-                        25 January 2021
+                        25 January 2023
                       </Text>
                     </div>
                     <Text
                       className="ml-[46px] text-base text-green-600"
                       size="txtInterMedium16Green600"
                     >
-                      +$2,500
+                      +Rs2,500
                     </Text>
                   </div>
                   <div className="flex flex-1 flex-row items-center justify-start w-full">
@@ -515,20 +515,20 @@ const MainDashboardPage = () => {
                         className="text-base text-bluegray-600"
                         size="txtInterMedium16"
                       >
-                        Jemi Wilson
+                        Mukesh
                       </Text>
                       <Text
                         className="text-[15px] text-bluegray-400"
                         size="txtInterRegular15Bluegray400"
                       >
-                        21 January 2021
+                        21 January 2023
                       </Text>
                     </div>
                     <Text
                       className="ml-12 text-base text-green-600"
                       size="txtInterMedium16Green600"
                     >
-                      +$5,400
+                      +Rs5,400
                     </Text>
                   </div>
                 </List>
