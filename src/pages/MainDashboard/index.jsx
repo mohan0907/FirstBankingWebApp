@@ -17,11 +17,19 @@ const MainDashboardPage = () => {
       <div className="bg-gray-100 flex sm:flex-col md:flex-col flex-row font-inter sm:gap-5 md:gap-5 items-start mx-auto pb-[30px] w-full">
         <Sidebar className="!sticky !w-[250px] flex h-screen md:hidden justify-start overflow-auto md:px-5 top-[0]">
           <div className="flex flex-col gap-[50px] items-center justify-start mb-[364px] mt-[30px] w-full">
-            <Img
-              className="h-10 md:h-auto object-cover w-[65%]"
-              src="images/img_logo.png"
-              alt="Logo"
-            />
+            <div className="flex flex-row items-center justify-center w-[65%] md:w-full">
+              <Img
+                className="h-10 md:h-auto object-cover w-10"
+                src="images/img_logo_indigo_600.png"
+                alt="LOGO"
+              />
+              <Text
+                className="ml-1 sm:text-[21px] md:text-[23px] text-[25px] text-indigo-600"
+                size="txtInterBold25"
+              >
+                ApnaBank
+              </Text>
+            </div>
             <div className="flex flex-col items-start justify-start w-full">
               <div className="flex flex-row gap-[34px] items-center justify-start w-[72%] md:w-full">
                 <Line className="bg-indigo-600 h-[60px] rounded-br-[10px] rounded-tr-[10px] w-1.5" />
@@ -658,97 +666,7 @@ const MainDashboardPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex md:flex-1 flex-col gap-[18px] items-start justify-start w-[32%] md:w-full">
-                <Text
-                  className="text-[22px] text-bluegray-900 sm:text-lg md:text-xl"
-                  size="txtInterSemiBold22"
-                >
-                  Expense Statistics
-                </Text>
-                <div className="bg-white-A700 flex flex-col items-center justify-start p-[31px] sm:px-5 rounded-[25px] w-full">
-                  <div className="md:h-[186px] h-[259px] relative w-[94%]">
-                    <div
-                      className="absolute bg-cover bg-no-repeat flex flex-col h-[129px] items-center justify-start left-[7%] p-[33px] sm:px-5 top-[0]"
-                      style={{
-                        backgroundImage: "url('images/img_group900.svg')",
-                      }}
-                    >
-                      <Text
-                        className="leading-[18.00px] mb-[22px] text-[13px] text-center text-white-A700"
-                        size="txtInterMedium13"
-                      >
-                        <span className="text-white-A700 font-inter text-base font-bold">
-                          <>
-                            30%
-                            <br />
-                          </>
-                        </span>
-                        <span className="text-white-A700 font-inter font-bold">
-                          Entertainment
-                        </span>
-                      </Text>
-                    </div>
-                    <div
-                      className="absolute bg-cover bg-no-repeat bottom-[4%] flex flex-col h-[189px] items-center justify-start left-[0] p-3.5"
-                      style={{
-                        backgroundImage: "url('images/img_group903.svg')",
-                      }}
-                    >
-                      <Text
-                        className="leading-[18.00px] my-[59px] text-[13px] text-center text-white-A700"
-                        size="txtInterMedium13"
-                      >
-                        <span className="text-white-A700 font-inter text-base font-bold">
-                          <>
-                            20%
-                            <br />
-                          </>
-                        </span>
-                        <span className="text-white-A700 font-inter font-bold">
-                          Investment
-                        </span>
-                      </Text>
-                    </div>
-                    <div
-                      className="absolute bg-cover bg-no-repeat flex flex-col h-[102px] items-end justify-end p-1.5 right-[0] top-[11%]"
-                      style={{
-                        backgroundImage: "url('images/img_group901.svg')",
-                      }}
-                    >
-                      <Text
-                        className="leading-[18.00px] mr-[19px] mt-12 text-[13px] text-center text-white-A700"
-                        size="txtInterMedium13"
-                      >
-                        <span className="text-white-A700 font-inter text-base font-bold">
-                          <>
-                            15%
-                            <br />
-                          </>
-                        </span>
-                        <span className="text-white-A700 font-inter font-bold">
-                          Bill Expense
-                        </span>
-                      </Text>
-                    </div>
-                    <div className="absolute bg-indigo-200 bottom-[0] flex flex-col h-[119px] items-center justify-start p-[23px] sm:px-5 right-[12%] w-[119px]">
-                      <Text
-                        className="leading-[18.00px] mb-[33px] text-[13px] text-center text-white-A700"
-                        size="txtInterMedium13"
-                      >
-                        <span className="text-white-A700 font-inter text-base font-bold">
-                          <>
-                            35%
-                            <br />
-                          </>
-                        </span>
-                        <span className="text-white-A700 font-inter font-bold">
-                          Others
-                        </span>
-                      </Text>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
             </div>
             <div className="flex md:flex-col flex-row gap-[30px] items-center justify-between w-full">
               <div className="flex md:flex-1 flex-col gap-5 items-start justify-start w-[41%] md:w-full">
